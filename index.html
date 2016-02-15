@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Global Kinetic</title>
+	
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="dist/css/main.min.css">	
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body id="mainBody">
+	<div id="mainContainer" class="container-fluid">
+		<div class="img-responsive"><img id="mainLogo" src="dist/images/logo.png" alt=""></div>
+		<form>			
+			<div class="form-group row">
+				<div id="inputRow" class="input-group">
+					<div id="userGlyph" class="input-group-addon"><img src="dist/images/user-span.png" height="17" width="17"></div>
+					<input id="userInput" type="text" class="form-control" placeholder="Username">
+					<div id="userErr" class="input-group-addon glyphicon glyphicon-remove"></div>
+				</div>					
+			</div>
+			<div class="form-group row">
+				<div id="inputRow" class="input-group">
+					<div class="input-group-addon"><img src="dist/images/pass-span.png" height="10" width="17"></div>
+					<input id="passInput" type="password" class="form-control" placeholder="Password">
+					<div id="passErr" class="input-group-addon glyphicon glyphicon-remove"></div>
+				</div>					
+			</div>
+			<div id="register" class="form-group row">
+				<div class="row">						
+					<input id="loginBtn" type="button" name="" value="LOGIN" class="btn btn-primary">
+					<input id="regBtn" type="button" name="" value="REGISTER" class="btn btn-primary">
+				</div>
+				<div id="forgotPass" class="row">
+					<a href="">Forgot Password</a>
+				</div>
+			</div>	
+		</form>
+	</div>
+	<script src="dist/js/main.min.js"></script>
+</body>
+</html>
